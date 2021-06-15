@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../css/flickity.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <title>Chi tiết sản phẩm</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="fixed-top">
+            <nav class="navbar navbar-expand-lg" style="height: 68px;">
+                <div class="container-fluid">
+                    <div class="header__logo">
+                        <a href="#">
+
+                            <img src="../img/logo-nontrum.png" width="228" height="68" alt="Nón Trùm">
+                        </a>
+
+                    </div>
+                    <ul class="header__list nav">
+                        <li class="header__item">
+                            <a href="../html/product-list.html" class="nav-link">
+                                Nón bảo hiểm
+                                <i class="ti-angle-down"></i>
+                            </a>
+                            <ul class="bg-light submenu">
+                                <li>
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link nowrap-text text-black">Nón bảo hiểm 3/4</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link nowrap-text">Nón 3/4 không kính</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link nowrap-text">Nón 3/4 có kính</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a href="../html/product-list.html" class="nav-link nowrap-text text-black">Nón bảo hiểm
+                                                fullface</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link nowrap-text">Fullface trên 2 triệu</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link nowrap-text">Fullface 1 -> 2 triệu</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link nowrap-text">Fullface dưới 1triệu</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link nowrap-text text-black">Nón khác</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link nowrap-text">Nón nửa đầu</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link nowrap-text">Nón trẻ em</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link nowrap-text">Nón xe đạp</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__item">
+                            <a href="../html/product-list.html" class="nav-link">
+                                Phụ kiện
+                                <i class="ti-angle-down"></i>
+                            </a>
+                            <ul class="nav-dropdown nav bg-light">
+                                <li>
+                                    <a href="" class="nav-link">Kính</a>
+                                </li>
+                                <li>
+                                    <a href="" class="nav-link">Găng tay</a>
+                                </li>
+                                <li>
+                                    <a href="" class="nav-link">Khác</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="nav-link">
+                                Thương hiệu
+                                <i class="ti-angle-down"></i>
+                            </a>
+
+                        </li>
+                        <li class="header__item">
+                            <a href="../html/sitemap.html" class="nav-link">Sitemap web</a>
+
+                        </li>
+                    </ul>
+                    <form class="d-flex search-frm">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-warning text-white" type="submit">
+                            <i class="ti-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+
+        </header>
+
+        <div id="main">
+            <div class="container">
+                
+                <div class="title-page">
+                    <a href="../html/index.html" class="link-primary text-decoration-none">Trang chủ</a>
+                    <span class="separate">/</span>
+                    <a href="../html/product-list.html" class="link-primary text-decoration-none">Danh sách sản phẩm</a>
+                    <span class="separate">/</span>  
+                    <a href="" class="link-primary text-decoration-none detail-map"></a>
+
+                </div>
+
+                <div class="product-main pb-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <img alt="" srcset="" class="card-img">
+                        </div>
+                        <div class="col-6">
+                            <h1 class="title-text"></h1>
+                            <div class="divider"></div>
+
+                            <div class="row">
+                                <div class="col-12 product-price">
+                                    <del class="me-2 text-del opc-6">
+                                        <bdi class="price-text"></bdi>
+                                        <span>
+                                            đ
+                                        </span>
+                                    </del>
+                                    <b>
+                                        <bdi class="saleprice-text">
+                                            
+                                        </bdi>
+                                        <span>
+                                            đ
+                                        </span>
+                                    </b>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <table class="table table-light">
+                                    <tbody>
+                                        <tr>
+                                            <td class="fw-bold">Size:</td>
+                                            <td id="table-sizedata"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="fw-bold">Hãng:</td>
+                                            <td id="table-factory">KYT</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="fw-bold">Màu:</td>
+                                            <td>
+                                                <div class="d-flex">
+                                                    <div class="col">
+                                                        <div class="color-cover">
+                                                            <input type="radio" checked name="color" id="red"> <label for="red" class="marginleft-5"></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="color-cover">
+
+                                                            <input type="radio" name="color" id="green"> <label for="green" class="marginleft-5"></label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="color-cover">
+                                                            <input type="radio" name="color" id="blue"> <label for="blue" class="marginleft-5"></label>
+                                                        </div>
+                                                    </div>
+                                                </div>                                                
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="fw-bold">Tình trạng:</td>
+                                            <td>Mới 100%</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="fw-bold">Sản xuất tại:</td>
+                                            <td>Việt Nam</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="fw-bold">Bảo hành:</td>
+                                            <td>365 ngày</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <form  class="row">
+                                    <div class="col-12">
+                                        <label class="fw-bold">Chọn size:</label>
+                                    </div>
+                                    <div class="row sizepicker">
+                                        
+                                    </div>
+                                    
+                                    <div class="row my-2">
+                                        <div class="col-md-4 col-lg-3 quantity col-xs-12">
+                                            <input type="button" value="-" class="btn btn-warning text-white minus">
+                                            <input type="number" name="" id="" min="1" step="1" value="1" inputmode="numeric" class="quantity-number">
+                                            <input type="button" value="+" class="btn btn-warning text-white plus">
+                                        </div>
+                                        <div class="col-md-8 col-lg-9">
+                                            <button type="submit" class="btn btn-danger">thêm vào giỏ hàng</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="description-box">
+                    <div class="row">
+                        <div class="col-12 py-3">
+                            <h4 class="title-text fs-4 text-capitalize">Mô tả</h4>
+                        </div>
+                        <div class="col-12">
+                            <div class="text-box">
+                                <strong>
+                                    
+                                </strong>
+                                <p class="description-text">
+    
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid">
+            <footer class="row bg-dark" id="footer">
+                <div class="col-4">
+                    <h3 class="footer-title-text py-3 text-uppercase fs-4 fw-bold">Hệ thống</h3>
+                    <div class="text-white mb-4">
+                        <span><strong>CN </strong></span><span class="text-danger"><strong>Tân phú</strong></span>: 80A vườn lài                  
+                    </div>
+                    <div class="text-white mb-4">
+                        <span><strong>CN </strong></span><span class="text-danger"><strong>Tân phú</strong></span>: 80A vườn lài                  
+                    </div>
+                    <div class="text-white mb-4">
+                        <span><strong>CN </strong></span><span class="text-danger"><strong>Tân phú</strong></span>: 80A vườn lài                  
+                    </div>
+                    <div class="text-white mb-4">
+                        <span><strong>CN </strong></span><span class="text-danger"><strong>Tân phú</strong></span>: 80A vườn lài                  
+                    </div>
+                </div>
+                <div class="col-4 separate-line">
+                    <h3 class="footer-title-text py-3 text-uppercase fs-4 fw-bold">Liên hệ</h3>
+                    <div class="text-white mb-4">
+                        <span><strong>Mua hàng: </strong></span><span><strong><a class="link-danger text-decoration-none" href="tel:190012345">190012345</a></strong></span> 
+                    </div>
+                    <div class="text-white mb-4">
+                        <span><strong>Zalo tư vấn: </strong></span><span><strong><a class="link-danger text-decoration-none" href="tel:0901618214">0901618214</a></strong></span>
+                    </div>
+                    <div class="text-white mb-4">
+                        <span><strong>Nhượng quyền: </strong></span><span><strong><a class="text-decoration-none">Tìm hiểu</a></strong></span>
+                    </div>
+                    <div class="text-white mb-4">
+                        <span><strong>Phản ánh dịch vụ: </strong></span><span><strong><a class="link-danger text-decoration-none" href="tel:190012345">190012345</a></strong></span>
+                    </div>
+                    <div class="text-white mb-4">
+                        <span><strong>Email: </strong></span><span><strong><a class="link-danger text-decoration-none" href="mailto:thangvuong@gmail.com">thangvuong@gmail.com</a></strong></span>
+                    </div>
+                    <div class="text-white mb-4">
+                        <span><strong>Giờ mở cửa: </strong></span><span>08:00 - 22:00</span>
+                    </div>
+                </div>
+                <div class="col-4 separate-line">
+                    <h3 class="footer-title-text py-3 text-uppercase fs-4 fw-bold">Thông tin</h3>
+                    <div class="text-white">
+                        <ul>
+                            <li class="mb-4">Giới thiệu chuỗi nón trùm</li>
+                            <li class="mb-4">Chính sách bán hàng</li>
+                            <li class="mb-4">Giặt nón miễn phí</li>
+                            <li class="mb-4">Chính sách bảo hành, đổi mới</li>
+                            <li class="mb-4">Cách thức mua hàng</li>
+                            <li class="mb-4">Giao hàng - Thanh toán</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12" id="footer-end">
+                    <div class="row py-2">
+                        <div class="col-12">
+                            <div class="footer-icon text-center text-secondary">
+                                <i class="ti-facebook icon fs-4 px-2"></i>
+                                <i class="ti-instagram icon fs-4 px-2"></i>
+                                <i class="ti-youtube icon fs-4 px-2"></i>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="text-center text-secondary">
+                                Powered by <a href="https://www.facebook.com/vuong.thangg/" target="_blank" class="link-warning">ThangVuong</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/flickity.pkgd.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/product.js"></script>
+</body>
+</html>
